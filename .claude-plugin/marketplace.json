@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "quick-install",
-      "description": "Install Claude Code plugins directly from a GitHub repo in one command",
+      "description": "Install Claude Code plugins directly from a GitHub repo in one command. Includes 1 slash command (/quick-install). Wraps marketplace add + plugin install into a single step.",
       "version": "1.0.0",
       "homepage": "https://github.com/Diffyweb/claude-plugin-quick-install",
       "source": {
@@ -21,7 +21,7 @@
     },
     {
       "name": "session-search",
-      "description": "Search, list, and summarize past Claude Code sessions with BM25 ranked retrieval",
+      "description": "Search, list, and summarize past Claude Code sessions with BM25 ranked retrieval. Includes 1 slash command (/search-sessions), 1 auto-triggered skill, and a Python CLI (list, summarize, search, reindex).",
       "version": "2.0.0",
       "homepage": "https://github.com/michaelcarwile/claude-skill-session-search",
       "source": {
