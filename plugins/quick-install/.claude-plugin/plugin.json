@@ -1,0 +1,5 @@
+{
+  "name": "quick-install",
+  "version": "1.0.0",
+  "description": "Install Claude Code plugins directly from a GitHub repo in one command"
+}

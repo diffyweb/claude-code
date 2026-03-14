@@ -1,0 +1,5 @@
+{
+  "name": "session-search",
+  "version": "2.0.0",
+  "description": "Search, list, and summarize past Claude Code sessions"
+}

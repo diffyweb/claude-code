@@ -1,11 +1,11 @@
-# Diffyweb Claude Plugins
+# Diffyweb Claude Code
 
-Claude Code plugin marketplace by [Diffyweb](https://github.com/Diffyweb).
+Claude Code plugins and skills by [Diffyweb](https://github.com/diffyweb).
 
 ## Add This Marketplace
 
 ```
-/plugin marketplace add diffyweb/claude-plugins
+/plugin marketplace add diffyweb/claude-code
 ```
 
 ## Available Plugins
@@ -18,6 +18,17 @@ Claude Code plugin marketplace by [Diffyweb](https://github.com/Diffyweb).
 ## Install a Plugin
 
 ```
-/plugin install quick-install@diffyweb-claude-plugins
-/plugin install session-search@diffyweb-claude-plugins
+/plugin install quick-install@diffyweb-claude-code
+/plugin install session-search@diffyweb-claude-code
+```
+
+## Structure
+
+```
+├── .claude-plugin/
+│   └── marketplace.json        # Marketplace manifest
+├── plugins/
+│   ├── quick-install/           # /quick-install command
+│   └── session-search/         # /search-sessions command + auto-triggered skill
+└── skills/                      # (future standalone skills)
 ```
