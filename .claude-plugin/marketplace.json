@@ -1,0 +1,33 @@
+{
+  "name": "diffyweb-claude-plugins",
+  "owner": {
+    "name": "Diffyweb",
+    "url": "https://github.com/Diffyweb"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by Diffyweb",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "quick-install",
+      "description": "Install Claude Code plugins directly from a GitHub repo in one command",
+      "version": "1.0.0",
+      "homepage": "https://github.com/Diffyweb/claude-plugin-quick-install",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Diffyweb/claude-plugin-quick-install.git"
+      }
+    },
+    {
+      "name": "session-search",
+      "description": "Search, list, and summarize past Claude Code sessions with BM25 ranked retrieval",
+      "version": "2.0.0",
+      "homepage": "https://github.com/michaelcarwile/claude-skill-session-search",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/michaelcarwile/claude-skill-session-search.git"
+      }
+    }
+  ]
+}
